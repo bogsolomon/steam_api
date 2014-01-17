@@ -31,7 +31,7 @@ public class RedditTableFormatter {
 				buffer.append("|");
 				buffer.append(detail.getScore());
 				buffer.append("|");
-				buffer.append(detail.getPrice());
+				buffer.append("$"+detail.getPrice());
 				buffer.append("\n");
 			} else {
 				buffer.append("|");
